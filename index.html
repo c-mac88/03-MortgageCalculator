@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mortgage Calculator</title>
+		<meta charset = "utf-8">
+		<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+	</head>
+		<body>
+			<h1>Mortgage Calculator</h1>
+			<h2>Calculate your monthly payment</h2>
+
+			<h3>Loan balance:</h3>
+				<span id="input1"><input type="text" id="loanBalance"></input></span>
+			<h3>Interest rate:</h3>
+				<span id="input2"><input type="text" id="interestRate"></input></span>
+			<h3>Loan term (years):</h3>
+				<span id="input3"><input type="text" id="loanTerm"></input></span>
+
+			<h3>Period:</h3>
+				<span id="select"><select id="period">
+					<option value="12">Monthly</option>
+					<option value="6">Bimonthly</option>
+				</select></span>
+
+			<span id="button"><button type="button">Calculate</button></span>
+
+			<div id="message"></div>	
+			
+			<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+			<script type="text/JavaScript" src="index.js"></script> 
+	</body>
+</html>
